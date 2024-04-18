@@ -11,7 +11,7 @@
 #'   seq_plotly_minimal()
 seq_plotly_minimal <- function(plot, labels_colour = NA){
 
-  if(is.na(labels_colour)) labels_colour <- seq_palette()$darkgrey
+  if(is.na(labels_colour)) labels_colour <- seq_palette$darkgrey
 
   plot <- plot |>
     plotly::layout(
