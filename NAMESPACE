@@ -2,6 +2,7 @@
 
 export(seq_ggplot_minimal)
 export(seq_ggplot_title_highlight)
+export(seq_google_login_screen)
 export(seq_heatscale)
 export(seq_palette)
 export(seq_plotly_minimal)
