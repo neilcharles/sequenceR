@@ -8,12 +8,14 @@ Description: What the package does (one paragraph).
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 Imports:
     ggplot2,
     glue,
     ggtext,
-    plotly
+    plotly,
+    shiny,
+    bslib
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
