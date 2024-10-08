@@ -19,6 +19,7 @@ seq_plotly_minimal <- function(plot, labels_colour = NA){
         title = list(font = list(color = labels_colour)),
         zeroline = FALSE,
         showline = FALSE,
+        showgrid = FALSE,
         tickfont = list(
           color = labels_colour
         )
@@ -27,6 +28,7 @@ seq_plotly_minimal <- function(plot, labels_colour = NA){
         title = list(font = list(color = labels_colour)),
         zeroline = FALSE,
         showline = FALSE,
+        showgrid = FALSE,
         tickfont = list(
           color = labels_colour
         )

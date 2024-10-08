@@ -31,3 +31,19 @@ seq_heatcolours <- function(){
 seq_heatscale <- function(n = 10){
   colorRampPalette(seq_heatcolours())(n)
 }
+
+#' A scales::col_numeric() palette with colours for extreme values instead of NA
+#'
+#' @param x
+#'
+#' @return
+#' @export
+#'
+#' @examples
+seq_pal_numeric_no_na <- function(x){
+
+  x <- scales::oob_squish(x)
+
+  scales::col_numeric(palette = c(seq_palette$red, seq_palette$green), domain = c(-1, 1))(x)
+
+}

@@ -4,7 +4,7 @@
 \alias{seq_google_login_screen}
 \title{Google login screen with a background image}
 \usage{
-seq_google_login_screen(req, title = "App Login", bg_image)
+seq_google_login_screen(req, title = "App Login")
 }
 \arguments{
 \item{bg_image}{}
